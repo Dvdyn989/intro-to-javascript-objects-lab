@@ -17,4 +17,40 @@ const game = {
     { name: "rare candy", quantity: 99 },
   ],
 }
-console.dir(pokemon, { maxArrayLength: null })
+console.dir(pokemon, { maxArrayLength: null }) //to display every item in array
+console.log(pokemon[58].name); //to get name of number 59
+console.log(game);
+
+/*
+Exercise 3
+1. Add a new property to the `game` object. Let's call it "difficulty".
+2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
+Solve Exercise 3 here:
+*/
+game.difficulty = "easy";
+
+/*
+Exercise 4
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
+Solve Exercise 4 here:
+*/
+game.party.push("Squirtle");
+
+/*
+Exercise 5
+1. Choose three more Pokémon from the `pokemon` array and add them to your party.
+2. Consider different attributes like 'type' or 'HP' for your selection. Which array method will you use to add them?
+Solve Exercise 5 here:
+*/
+game.party.push("Wartortle", "Kakuna", "Metapod");
+//2. i assume i should answer in english so would be push() or unshift() to add them.
+
+
+
+
+
+
+
+
+
